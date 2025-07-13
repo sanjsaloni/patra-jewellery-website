@@ -40,7 +40,7 @@ const ContactSection: React.FC = () => {
           <div className="grid md:grid-cols-3 gap-8 text-center">
             <div className="flex flex-col items-center">
               <div className="bg-yellow-100 p-4 rounded-full mb-4">
-                <MapPin className="text-yellow-600" size={32} />
+                <a href="https://maps.app.goo.gl/bps25F2obBj1WTH5A" target="_blank"><MapPin className="text-yellow-600" size={32} /></a>
               </div>
               <h3 className="text-xl font-bold text-gray-800 mb-2">Address</h3>
               <p className="text-gray-600 leading-relaxed">
