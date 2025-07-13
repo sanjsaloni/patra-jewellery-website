@@ -38,7 +38,7 @@ function App() {
     <AuthProvider>
       <Router>
         <Routes>
-          <Route path="patra-jewellery-website/" element={<HomePage />} />
+          <Route path="/patra-jewellery-website/" element={<HomePage />} />
           <Route path="/admin/login" element={<AdminRoute />} />
           <Route 
             path="/admin/dashboard" 
