@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
-          src="/bg.jpg"
+          src="patra-jewellery-website/bg.jpg"
           alt="Gold Jewelry Model"
           className="w-full h-full object-cover object-center"
         />
