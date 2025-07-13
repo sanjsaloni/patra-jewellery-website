@@ -1,6 +1,7 @@
 import React from 'react';
 import { Search, ShoppingBag } from 'lucide-react';
 import SearchModal from '../Search/SearchModal';
+import { Link } from 'react-router-dom';
 
 interface HeaderProps {
   activeCategory: string;
@@ -54,7 +55,10 @@ const Header: React.FC<HeaderProps> = ({
             <a href="#categories" className="text-gray-700 hover:text-gray-900 font-medium transition-colors">Categories</a>
             <a href="#contact" className="text-gray-700 hover:text-gray-900 font-medium transition-colors">Contact</a>
           </nav>
-
+          <Link to="/admin/login"
+          className="px-4 py-2 bg-yellow-600 text-white rounded hover:bg-yellow-700 transition">
+          Admin Login
+        </Link>
               <button
                 onClick={() => setIsSearchOpen(true)}
                 className="p-2 text-gray-600 hover:text-gray-900 hover:bg-gray-100 rounded-lg transition-all duration-200"
