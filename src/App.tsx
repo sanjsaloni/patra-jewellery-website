@@ -38,7 +38,7 @@ function App() {
     <AuthProvider>
       <Router>
         <Routes>
-          <Route path="/" element={<HomePage />} />
+          <Route path="patra-jewellery-website/" element={<HomePage />} />
           <Route path="/admin/login" element={<AdminRoute />} />
           <Route 
             path="/admin/dashboard" 
@@ -48,7 +48,7 @@ function App() {
               </ProtectedRoute>
             } 
           />
-          <Route path="*" element={<Navigate to="/" replace />} />
+          <Route path="*" element={<Navigate to="/patra-jewellery-website/" replace />} />
         </Routes>
       </Router>
     </AuthProvider>
